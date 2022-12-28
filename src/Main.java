@@ -1,9 +1,13 @@
 public class Main {
     public static void main(String[] args) {
         suma(5, 6, 8);
+
+        //Ejercicio tema 3
         Coche miCoche = new Coche();
         miCoche.agregarPuerta();
         System.out.println("Numero de puertas del miCoche" + miCoche.puertas);
+
+        //Ejercicio Tema 4
         EjercicioTema4 resultado = new EjercicioTema4();
         resultado.usandoIf(5);
         resultado.bucleWhile(0);
@@ -28,8 +32,6 @@ class Coche {
 
 class EjercicioTema4 {
     public void usandoIf(int a) {
-        int numerolf = a;
-
         if (a>0) {
             System.out.println("Numerolf es positivo");
         } else if (a<0) {
